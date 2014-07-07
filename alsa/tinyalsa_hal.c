@@ -46,6 +46,7 @@
 #include "config_nullcard.h"
 #include "config_spdif.h"
 #include "config_cs42888.h"
+#include "config_sgtl5000.h"
 
 
 /* ALSA ports for IMX */
@@ -95,12 +96,12 @@
 
 /*"null_card" must be in the end of this array*/
 struct audio_card *audio_card_list[SUPPORT_CARD_NUM] = {
-    &wm8958_card,
-    &wm8962_card,
+    &sgtl5000_card,
     &hdmi_card,
     &usbaudio_card,
     &spdif_card,
-    &cs42888_card,
+    &wm8958_card,
+    &wm8962_card,
     &null_card,
 };
 

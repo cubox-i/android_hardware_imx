@@ -54,6 +54,7 @@ LOCAL_SHARED_LIBRARIES:= \
     libdl \
     libc \
     libjpeg \
+    libjhead \
     libexif \
     libion \
     libcamera_metadata \

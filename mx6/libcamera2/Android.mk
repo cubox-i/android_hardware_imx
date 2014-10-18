@@ -62,16 +62,16 @@ LOCAL_SHARED_LIBRARIES:= \
     lib_vpu_wrapper
 
 LOCAL_C_INCLUDES += \
-	frameworks/base/include/binder \
-	frameworks/base/include/ui \
-	frameworks/base/camera/libcameraservice \
-	hardware/imx/mx6/libgralloc_wrapper \
-	system/media/camera/include \
-	external/jpeg \
-	external/jhead \
-        device/fsl-proprietary/include \
-        external/fsl_vpu_omx/OpenMAXIL/src/component/vpu_wrapper \
-        external/fsl_imx_omx/OpenMAXIL/src/component/vpu_wrapper
+    frameworks/base/include/binder \
+    frameworks/base/include/ui \
+    frameworks/base/camera/libcameraservice \
+    hardware/imx/mx6/libgralloc_wrapper \
+    system/media/camera/include \
+    external/jpeg \
+    external/jhead \
+    device/fsl/imx6-common/include \
+    external/fsl_vpu_omx/OpenMAXIL/src/component/vpu_wrapper \
+    external/fsl_imx_omx/OpenMAXIL/src/component/vpu_wrapper
 
 ifeq ($(HAVE_FSL_IMX_CODEC),true)
     #LOCAL_SHARED_LIBRARIES += libfsl_jpeg_enc_arm11_elinux

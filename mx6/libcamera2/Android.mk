@@ -69,7 +69,7 @@ LOCAL_C_INCLUDES += \
     system/media/camera/include \
     external/jpeg \
     external/jhead \
-    device/fsl/imx6-common/include \
+    hardware/imx/mx6/libg2d \
     external/fsl_vpu_omx/OpenMAXIL/src/component/vpu_wrapper \
     external/fsl_imx_omx/OpenMAXIL/src/component/vpu_wrapper
 

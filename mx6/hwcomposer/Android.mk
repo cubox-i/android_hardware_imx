@@ -39,7 +39,7 @@ LOCAL_SRC_FILES :=				\
 
 LOCAL_MODULE := hwcomposer.$(TARGET_BOARD_PLATFORM)
 LOCAL_C_INCLUDES += hardware/imx/mx6/libgralloc_wrapper \
-                    device/fsl/imx6-common/include \
+                    hardware/imx/mx6/libg2d \
                     system/core/include/
 
 LOCAL_CFLAGS:= -DLOG_TAG=\"hwcomposer\"
